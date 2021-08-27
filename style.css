@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: white;
+    min-height:100vh;
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+.head{
+    min-height:50vh;
+    background: rgb(241, 77, 77);
+    padding: 5rem 1rem;
+}
+.score{
+    padding:5rem;
+    text-align: center;
+}
+.section-title{
+    max-width: 90vw;
+    /* border: 2px solid black; */
+    text-align: center;
+    margin-left:auto;
+    margin-right:auto;
+    color:white;
+    letter-spacing: 0.25rem;
+    font-size:3rem;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 3rem;
+}
+.head h2{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5rem;
+    letter-spacing: 0.25rem;
+    margin: 2rem auto;
+    text-align: center;
+    line-height: 2rem;
+}
+h3{
+    font-size:2.5rem;
+    letter-spacing: 0.25rem;
+}
+
+.questions{
+    min-height: 100vh;
+    background:rgba(247, 100, 2, 0.835);
+    
+
+}
+.question-1{
+    background:brown;
+    min-height:50vh;
+    padding: 3rem;
+}
+p{
+    font-size:2rem;
+    text-transform: capitalize;
+    margin: 2rem 0;
+}
+.question-2{
+    background:rgb(165, 122, 42);
+    min-height:50vh;
+    padding: 3rem;
+}
+.question-3{
+    background:rgb(228, 132, 103);
+    min-height:50vh;
+    padding: 3rem;
+}
+.question-4{
+    background:rgb(180, 182, 75);
+    min-height:50vh;
+    padding: 3rem;
+}
+.question-5{
+    background:rgb(64, 147, 214);
+    min-height:50vh;
+    padding: 3rem;    
+}
+.question-6{
+    background:rgb(35, 236, 159);
+    min-height:50vh;
+    padding: 3rem;    
+}
+.question-7{
+    background:rgb(250, 81, 165);
+    min-height:50vh;
+    padding: 3rem;    
+}.question-8{
+    background:rgb(66, 122, 52);
+    min-height:50vh;
+    padding: 3rem;   
+}.question-9{
+    background:rgb(251, 143, 1);
+    min-height:50vh;
+    padding: 3rem;    
+}.question-10{
+    background:brown;
+    min-height:50vh;
+    padding: 3rem;    
+}
+
+.options{
+    margin: 2rem;
+    font-size:1.5rem;
+    letter-spacing: 0.1rem;
+
+}
+
+input[type=radio] {
+    width: 5%;
+    height: 1.5rem;
+    vertical-align:middle;
+}
+.options label{
+    margin-left:1rem;
+}
+.button{
+    font-size: 2rem;
+    color: black;
+    padding:1rem;
+    margin: 5rem auto;
+    text-align: center;
+    border:none;
+    border-radius:4rem;
+
+}
+
+a{
+    text-decoration: none;
+    color:white;
+}
+a:hover{
+    color:red;
+    
+}
+.hvr-float-shadow {
+  
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.hvr-float-shadow:before {
+  pointer-events: none;
+  position: absolute;
+  z-index: -1;
+  content: '';
+  top: 100%;
+  left: 5%;
+  height: 10px;
+  width: 90%;
+  opacity: 0;
+  background: -webkit-radial-gradient(center, ellipse, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 80%);
+  background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 80%);
+  /* W3C */
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform, opacity;
+  transition-property: transform, opacity;
+}
+.hvr-float-shadow:hover, .hvr-float-shadow:focus, .hvr-float-shadow:active {
+  -webkit-transform: translateY(-5px);
+  transform: translateY(-5px);
+  /* move the element up by 5px */
+}
+.hvr-float-shadow:hover:before, .hvr-float-shadow:focus:before, .hvr-float-shadow:active:before {
+  opacity: 1;
+  -webkit-transform: translateY(5px);
+  transform: translateY(5px);
+  /* move the element down by 5px (it will stay in place because it's attached to the element that also moves up 5px) */
+}
+/* grow effect css */
+.hvr-grow {
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.05);
+}
+
+.d-none{
+    display: none;
+}
